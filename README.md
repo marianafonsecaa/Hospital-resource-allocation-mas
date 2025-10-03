@@ -11,7 +11,7 @@ The project simulates a healthcare network where multiple autonomous agents (hos
 
 **Note:** This project is currently **in progress** and under active development. The repository will be updated iteratively as the system evolves.
 
----
+
 
 ## Objectives
 - Simulate a hospital network using autonomous agents.
@@ -19,7 +19,7 @@ The project simulates a healthcare network where multiple autonomous agents (hos
 - Enable priority response for critical and emergency cases.
 - Demonstrate the advantages of decentralized decision-making in healthcare environments.
 
----
+
 
 ## System Architecture
 The system is composed of the following agent types:
@@ -31,7 +31,7 @@ The system is composed of the following agent types:
 
 Agents interact through **peer-to-peer communication protocols**, including the **Contract Net Protocol (CNP)**, to ensure coordination in patient routing, admissions, and resource allocation.
 
----
+
 
 ## Dynamic Environment
 The simulation incorporates real-world variability, including:
@@ -50,24 +50,21 @@ The system will be evaluated based on:
 - Fairness of resource distribution across hospitals.
 - Responsiveness under emergency conditions.
 
----
-
 ## Technologies
-- **Python 3.x**  
+- **Python 3.12**  
 - **SPADE (Smart Python Agent Development Environment)**  
 - **NetworkX** (for modeling agent interactions)  
 - **Matplotlib / Visualization tools** (for system monitoring and simulation output)  
 
----
+
 
 ## Roadmap (Work in Progress)
-- [ ] Weeks 1–2: System design; initial implementation of Hospital and Ambulance agents.  
-- [ ] Week 3: Agent communication and basic patient routing.  
-- [ ] Week 4: Resource constraints (beds, staff, supplies).  
-- [ ] Week 5: Collaboration protocols (Contract Net Protocol) and emergency prioritization.  
-- [ ] Week 6: Visualization and performance evaluation under stress-test scenarios.  
+- System design; initial implementation of Hospital and Ambulance agents.
+- Agent communication and basic patient routing.  
+- Week 4: Resource constraints (beds, staff, supplies).
+- Week 5: Collaboration protocols (Contract Net Protocol) and emergency prioritization.
+- Week 6: Visualization and performance evaluation under stress-test scenarios.  
 
----
 
 ## Architecture Diagram
 A conceptual diagram of the system architecture is provided below (to be refined as the project progresses):
